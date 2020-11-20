@@ -4,6 +4,7 @@ def find_min_in_nested_arrays(src)
 row = 0
 low_temps = []
 lowest_temp = 1000
+binding.pry
   while row < src.count
     element = 0
     while element < src[row].count do
