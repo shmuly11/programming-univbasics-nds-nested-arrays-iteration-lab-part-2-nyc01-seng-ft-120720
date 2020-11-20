@@ -14,8 +14,9 @@ lowest_temp = 1000
       element += 1
     end
     low_temps << lowest_temp
+    binding.pry 
     row += 1
   end
-  binding.pry 
+  
   low_temps
 end
