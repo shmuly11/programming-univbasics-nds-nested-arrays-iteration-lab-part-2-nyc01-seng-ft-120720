@@ -15,5 +15,5 @@ lowest_temp = 1000
     low_temps << lowest_temp
     row += 1
   end
-  low_tempss
+  low_temps
 end
