@@ -16,5 +16,6 @@ lowest_temp = 1000
     low_temps << lowest_temp
     row += 1
   end
+  binding.pry 
   low_temps
 end
