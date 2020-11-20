@@ -6,7 +6,9 @@ low_temps = []
 lowest_temp = 1000
 
   while row < src.count
+  
     element = 0
+    lowest_temp = 1000
     while element < src[row].count do
       if src[row][element] < lowest_temp
         lowest_temp = src[row][element]
