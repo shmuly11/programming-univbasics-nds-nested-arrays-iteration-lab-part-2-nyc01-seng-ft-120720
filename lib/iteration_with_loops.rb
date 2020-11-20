@@ -10,7 +10,7 @@ lowest_temp = 1000
       if src[row][element] < lowest_temp
         lowest_temp = src[row][element]
       end
-      elemen t+= 1
+      element += 1
     end
     low_temps << lowest_temp
     row += 1
